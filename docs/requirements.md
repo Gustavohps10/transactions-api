@@ -10,7 +10,7 @@
 - [x] Transações podem ser dos tipos:
     - [x] Crédito: somar ao valor total
     - [x] Débito: subtrair do valor total
-- [ ] Deve ser possivel identificar o usuário entre requisições
-- [ ] O usuário só podera visualizar transações que ele mesmo criou
+- [x] Deve ser possivel identificar o usuário entre requisições
+- [x] O usuário só podera visualizar transações que ele mesmo criou
 
 ## RNF - Requisitos Não Funcionais
