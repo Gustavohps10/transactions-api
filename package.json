@@ -10,7 +10,7 @@
     "dev": "tsx watch --env-file=.env src/server.ts",
     "lint": "eslint src --ext .ts --fix",
     "knex": "node --env-file=.env --import=tsx ./node_modules/knex/bin/cli.js",
-    "migrate": "node --env-file=.env --import=tsx ./node_modules/knex/bin/cli.js migrate:latest",
+    "migrate": "node --import=tsx ./node_modules/knex/bin/cli.js migrate:latest",
     "build": "tsup src",
     "test": "vitest"
   },
