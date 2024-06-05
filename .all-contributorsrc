@@ -1,4 +1,21 @@
 {
   "projectName": "transactions-api",
-  "projectOwner": "Gustavohps10"
+  "projectOwner": "Gustavohps10",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "Gustavohps10",
+      "name": "Gustavo Henrique",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61752235?v=4",
+      "profile": "https://www.gustavohenrique.site/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
 }
