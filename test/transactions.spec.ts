@@ -55,4 +55,39 @@ describe("Transactions routes", () => {
       }),
     ]);
   });
+
+  it("should be able to get a specific transactions", async () => {
+    const createTransactionResponse = await request(app.server)
+      .post("/transactions")
+      .send({
+        title: "New transaction",
+        amount: 5000,
+        type: "debit",
+      });
+
+    const cookies = createTransactionResponse.get("Set-Cookie");
+
+    if (!cookies) {
+      throw new Error("Cookies not found");
+    }
+
+    const listTransactionsResponse = await request(app.server)
+      .get("/transactions")
+      .set("Cookie", cookies)
+      .expect(200);
+
+    const transactionId = listTransactionsResponse.body.transactions[0].id;
+
+    const getTransactionsResponse = await request(app.server)
+      .get(`/transactions/${transactionId}`)
+      .set("Cookie", cookies)
+      .expect(200);
+
+    expect(getTransactionsResponse.body.transaction).toEqual(
+      expect.objectContaining({
+        title: "New transaction",
+        amount: -5000,
+      }),
+    );
+  });
 });
