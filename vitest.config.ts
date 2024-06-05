@@ -4,6 +4,6 @@ import { loadEnv } from "vite";
 export default defineConfig({
   test: {
     environment: "node",
-    env: loadEnv("", process.cwd(), ""),
+    env: loadEnv("test", process.cwd(), ""),
   },
 });
