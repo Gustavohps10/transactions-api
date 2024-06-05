@@ -15,12 +15,11 @@ GET  /transactions/:id
 GET  /transactions/summary 
 ```
 
-## :gear: Running App
-You can access this url: https://transactions-api-d9kj.onrender.com if it is still working ¯\_(ツ)_/¯
+## :gear: Running the App
+You can access this url: https://transactions-api-d9kj.onrender.com if it is still working ¯\\_(ツ)_/¯
 
 ### :computer: Local
-First fork and clone this repo.
-Feel free to create new pull requests
+First fork and clone this repo. Feel free to create new pull requests
 
 #### Environment 
 Rename .env.example to .env and set variables
@@ -53,6 +52,16 @@ npm test
 ```
 
 ## :hammer_and_wrench: Tools
+<p>
+<img src="https://img.shields.io/static/v1?label=&message=Node.js&colorA=2a2a2a&colorB=1a1a1e&logo=node.js&style=flat-square">
+<img src="https://img.shields.io/static/v1?label=&message=TypeScript&colorA=2a2a2a&colorB=1a1a1e&logo=typescript&style=flat-square">
+<img src="https://img.shields.io/static/v1?label=&message=Fastify&colorA=2a2a2a&colorB=1a1a1e&logo=fastify&style=flat-square">
+<img src="https://img.shields.io/static/v1?label=&message=Zod&colorA=2a2a2a&colorB=1a1a1e&logo=zod&style=flat-square">
+<img src="https://img.shields.io/static/v1?label=&message=Knex.js&colorA=2a2a2a&colorB=1a1a1e&logo=knex.js&style=flat-square">
+<img src="https://img.shields.io/static/v1?label=&message=SQLite&colorA=2a2a2a&colorB=1a1a1e&logo=sqlite&style=flat-square">
+<img src="https://img.shields.io/static/v1?label=&message=Vitest&colorA=2a2a2a&colorB=1a1a1e&logo=vitest&style=flat-square">
+</p>
+
 
 ## :adult: Contributors
 
