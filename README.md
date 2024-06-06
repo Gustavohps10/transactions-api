@@ -1,5 +1,12 @@
 <h1 align="center">Transactions REST API</h1>
 
+<div align="center">
+    <img src="https://img.shields.io/github/languages/top/Gustavohps10/transactions-api?color=1e1e1e"/>
+    <img src="https://img.shields.io/github/commit-activity/w/Gustavohps10/transactions-api?color=1e1e1e"/>
+    <img src="https://img.shields.io/github/created-at/gustavohps10/transactions-api?color=1e1e1e"/>
+    <img src="https://img.shields.io/github/license/gustavohps10/transactions-api?color=1e1e1e"/>
+</div>
+
 ## :camera: Screenshot
 <p align="center"><img width="80%" src="https://github.com/Gustavohps10/transactions-api/assets/61752235/f9be30cc-a80b-4ed5-b343-afbc4f017caf"></p>
 
