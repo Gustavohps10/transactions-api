@@ -23,6 +23,8 @@ GET  /transactions/summary
 ```
 
 ## :gear: Running the App
+
+### :globe_with_meridians: Web 
 You can access this url: https://transactions-api-d9kj.onrender.com if it is still working ¯\\_(ツ)_/¯
 
 ### :computer: Local
